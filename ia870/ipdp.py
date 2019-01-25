@@ -212,7 +212,7 @@ class wsNeighbour():
 
 class wsDomain:
     def __init__(self, length):
-        self.inner = range(length)
+        self.inner = list(range(length))
         self.count = 0
 
     def __next__(self):
